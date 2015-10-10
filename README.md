@@ -35,6 +35,12 @@ Send SMS:
 SteamFi::API.send_sms('1234PHONE', 'Hello world')
 ```
 
+Set logger:
+
+```ruby
+SteamFi::API.logger = MyLogger.new
+```
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/steam_fi/fork )
